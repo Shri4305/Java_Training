@@ -16,7 +16,8 @@ public class BubbleSortTest {
         int[] SortNum={1,3,4,10,15,25,125};
         int lengthOfSortedArray= SortNum.length;
         int lengthOfGivenArray=  GivenNumbers.length;
-        Assert.assertArrayEquals("Addition integer pulse integer does not match ", SortNum, BubbleSort.bubbleSortAsc(GivenNumbers));
+
+        Assert.assertArrayEquals("Addition integer pulse integer does not match ", SortNum, BubbleSort.Asc(GivenNumbers));
         Assert.assertEquals("Length of sorted array does not match",lengthOfSortedArray,lengthOfGivenArray);
     }
 
@@ -26,7 +27,7 @@ public class BubbleSortTest {
         int[] SortNum={-100,-25,-15,-15,-1};
         int lengthOfSortedArray= SortNum.length;
         int lengthOfGivenArray=  GivenNumbers.length;
-        Assert.assertArrayEquals("Sorting for negative Numbers not matched ", SortNum, BubbleSort.bubbleSortAsc(GivenNumbers));
+        Assert.assertArrayEquals("Sorting for negative Numbers not matched ", SortNum, BubbleSort.Asc(GivenNumbers));
         Assert.assertEquals("Length of sorted array does not match",lengthOfSortedArray,lengthOfGivenArray);
     }
 
@@ -36,7 +37,7 @@ public class BubbleSortTest {
         int[] SortNum={3,2,1};
         int lengthOfSortedArray= SortNum.length;
         int lengthOfGivenArray=  GivenNumbers.length;
-        Assert.assertArrayEquals("Sorting for negative Numbers not matched ", SortNum, BubbleSort.bubbleSortDesc(GivenNumbers));
+        Assert.assertArrayEquals("Sorting for negative Numbers not matched ", SortNum, BubbleSort.Desc(GivenNumbers));
         Assert.assertEquals("Length of sorted array does not match",lengthOfSortedArray,lengthOfGivenArray);
     }
 

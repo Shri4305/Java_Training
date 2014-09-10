@@ -10,11 +10,11 @@ public class BubbleSort {
     }
 
 
-    public static int[] bubbleSortAsc(final int[] givenNumbers) {
+    public static int[] Asc(final int[] givenNumbers) {
         return bubbleSort(givenNumbers,SortingOrder.ASCENDING);
     }
 
-    public static int[] bubbleSortDesc(final int[] givenNumbers) {
+    public static int[] Desc(final int[] givenNumbers) {
         return bubbleSort(givenNumbers,SortingOrder.DESCENDING);
     }
 
